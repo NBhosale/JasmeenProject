@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="indexStyle.css">
+    <link rel="stylesheet" type="text/css" href="dealsStyle.css">
+    <link rel="stylesheet" type="text/css" href="popUp.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Amethysta' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="head">
+    <div class="blockHead" id="topHeaderContainer">
+        <div class="inlineHead" id="headLogo"><img src="img/Claytongate-Logo.png" id="logo" height="200" width="270"/>
+        </div>
+        <div class="inlineHead" id="info">
+            <p class="topInfo"><strong>575 3000</strong></p>
+        </div>
+
+    </div>
+    <!-- Navigation -->
+    <div class="blockHead" id="div-nav">
+        <nav class="main-nav">
+            <ul class="topItem">
+                <li><a href="index.html">
+                    <div><img src="img/PizzaIcon.png" id="pizzas" font-size="0" class="iconImg"/>
+                        <p>Pizzas</p></div>
+                </a></li>
+                <li><a href="deals.html">
+                    <div><img src="img/dealsIcon.png" id="deals" font-size="0" class="iconImg"/>
+                        <p>Deals</p></div>
+                </a></li>
+                <li><a href="wingsSides.html">
+                    <div><img src="img/wingsSideIcon.png" id="wings" font-size="0" class="iconImg"/>
+                        <p>Wings</p></div>
+                </a></li>
+                <li><a href="breadSides.html">
+                    <div><img src="img/breadSticksIcon.png" id="bread" font-size="0" class="iconImg"/>
+                        <p>Bread Sides</p></div>
+                </a></li>
+                <li><a href="saladSides.html">
+                    <div><img src="img/saladIcon.png" font-size="0" id="salads" class="iconImg"/>
+                        <p>Salads</p></div>
+                </a></li>
+                <li><a href="dipsSides.html">
+                    <div><img src="img/dippingIcon.png" font-size="0" id="dips" class="iconImg"/>
+                        <p>Dips</p></div>
+                </a></li>
+                <li><a href="dessertSides.html">
+                    <div><img src="img/dessertIcon.png" font-size="0" id="desserts" class="iconImg"/>
+                        <p>Desserts</p></div>
+                </a></li>
+                <li><a href="drinksSides.html">
+                    <div><img src="img/drinkIcon.png" font-size="0" id="drinks" class="iconImg"/>
+                        <p>Beverages</p></div>
+                </a></li>
+                <li><a href="infoPage.html">
+                    <div><img src="img/infoImage.png" font-size="0" id="infos" class="iconImg"/>
+                        <p>Contact Us</p></div>
+                </a></li>
+            </ul>
+        </nav>
+    </div>
+
+</div>
+
+<div id="mainContainer">
+
+    <div id="slideShow" class="slideShow-container">
+
+        <div class="mySlides fade">
+            <div id="firstDeal">
+                <div class="sectionContainer">
+                    <div class="dealThreePizza">
+                        <p class="saveTitle">Combo & Save</p>
+                        <p class="dealName">Family Deal Combo</p>
+                        <p class="mainDeal">2 Pizza 3 Toppings Each 12 Chicken Wings</p>
+                    </div>
+                </div>
+                <div class="sectionContainer">
+                    <div class="dealTwoAnyPizza">bye</div>
+                    <div class="dealTwoLimitedToppingPizza">you</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <div id="secondDeal">
+                <div class="sectionContainer">
+                    <div class="dealThreePizza">hello</div>
+                </div>
+                <div class="sectionContainer">
+                    <div class="dealTwoAnyPizza">bye</div>
+                    <div class="dealTwoLimitedToppingPizza">you</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <div id="thirdDeal">
+                <div class="sectionContainer">
+                    <div class="dealThreePizza">hello</div>
+                </div>
+                <div class="sectionContainer">
+                    <div class="dealTwoAnyPizza">bye</div>
+                    <div class="dealTwoLimitedToppingPizza">you</div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(0)"></span>
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="indexControl.js"></script>
+</body>
+</html>
