@@ -100,7 +100,12 @@ img {
     height: 100%;
     width: 100%;
 }
-
+.deal-content{
+    top: -100px;
+    width: 100%;
+    overflow: scroll;
+    text-align: center;
+}
 .dealThreePizza {
     width: 100%;
     height: 100%;
